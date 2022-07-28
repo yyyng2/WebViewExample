@@ -45,14 +45,13 @@ class ExampleWebViewController: UIViewController {
    
     @IBAction func backButtonTapped(_ sender: UIBarButtonItem) {
         webView.goBack()
-        webView.reload()
+
     }
     @IBAction func refreshButtonTapped(_ sender: UIBarButtonItem) {
         webView.reload()
     }
     @IBAction func forwardButtonTapped(_ sender: UIBarButtonItem) {
         webView.goForward()
-        webView.reload()
     }
     
 }
